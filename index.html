@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f3d2e">
+  <meta name="description" content="Chá de Casa Nova de Chris e Biel — 10 de outubro de 2026.">
+  <title>Chris & Biel | Chá de Casa Nova</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="gold-line"></div>
+
+  <header class="hero">
+    <div class="hero-photo">
+      <img src="imagens/chris-e-biel.jpeg" alt="Chris e Biel">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <span class="eyebrow">CHÁ DE CASA NOVA</span>
+      <h1>Chris <span>&amp;</span> Biel</h1>
+      <p class="hero-date">10 • 10 • 2026</p>
+      <p class="hero-subtitle">Nossa casa, nosso sonho, nossa nova história.</p>
+      <a class="button button-gold" href="#sonho">Conheça nosso sonho</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro section reveal">
+      <span class="section-kicker">UM NOVO COMEÇO</span>
+      <h2>Sejam bem-vindos à nossa casa nova</h2>
+      <p>
+        Depois de tantos planos, chegou o momento de começar uma nova fase e
+        transformar nossa casa em nosso lar.
+      </p>
+      <p>
+        Já temos muitos dos itens que precisamos para o nosso cantinho,
+        então decidimos fazer nosso chá de um jeitinho diferente:
+        nosso principal sonho agora é conquistar <strong>nossa geladeira nova.</strong>
+      </p>
+      <p>
+        Cada contribuição, independente do valor, vai fazer parte dessa conquista.
+        E o mais importante para nós é ter vocês celebrando esse momento junto com a gente.
+      </p>
+    </section>
+
+    <section id="sonho" class="dream section reveal">
+      <div class="section-heading">
+        <span class="section-kicker">NOSSO GRANDE SONHO</span>
+        <h2>🧊 Nossa geladeira</h2>
+        <p>Queremos transformar cada carinho recebido em um pedacinho da nossa nova cozinha.</p>
+      </div>
+
+      <div class="goal-card glass">
+        <div class="goal-top">
+          <div>
+            <span class="goal-label">META</span>
+            <strong>R$ 5.000</strong>
+          </div>
+          <div class="goal-current">
+            <span>ARRECADADO</span>
+            <strong id="currentValue">R$ 0</strong>
+          </div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <div class="goal-bottom">
+          <span id="progressText">0% da nossa meta</span>
+          <span>Rumo à geladeira! 💚</span>
+        </div>
+      </div>
+
+      <div class="notice">
+        <span>💚</span>
+        <p>
+          <strong>Como funciona?</strong><br>
+          Escolha uma cota abaixo, copie nossa chave Pix e faça a contribuição
+          diretamente para nós. Assim, não existe taxa de plataforma sobre o presente.
+        </p>
+      </div>
+
+      <div class="gift-grid">
+        <article class="gift-card">
+          <span class="gift-icon">🥰</span>
+          <h3>Um carinho para nossa casa</h3>
+          <div class="gift-price">R$ 20</div>
+          <button class="gift-button" data-value="20">Escolher cota</button>
+        </article>
+
+        <article class="gift-card">
+          <span class="gift-icon">🏠</span>
+          <h3>Um pedacinho do nosso lar</h3>
+          <div class="gift-price">R$ 30</div>
+          <button class="gift-button" data-value="30">Escolher cota</button>
+        </article>
+
+        <article class="gift-card featured">
+          <span class="gift-icon">❤️</span>
+          <h3>Ajude nosso sonho</h3>
+          <div class="gift-price">R$ 50</div>
+          <button class="gift-button" data-value="50">Escolher cota</button>
+        </article>
+
+        <article class="gift-card">
+          <span class="gift-icon">🧊</span>
+          <h3>Um pouquinho da nossa geladeira</h3>
+          <div class="gift-price">R$ 75</div>
+          <button class="gift-button" data-value="75">Escolher cota</button>
+        </article>
+
+        <article class="gift-card featured">
+          <span class="gift-icon">🧊</span>
+          <h3>Cota Geladeira</h3>
+          <div class="gift-price">R$ 100</div>
+          <button class="gift-button" data-value="100">Escolher cota</button>
+        </article>
+
+        <article class="gift-card">
+          <span class="gift-icon">🏠</span>
+          <h3>Nossa casa agradece</h3>
+          <div class="gift-price">R$ 150</div>
+          <button class="gift-button" data-value="150">Escolher cota</button>
+        </article>
+
+        <article class="gift-card">
+          <span class="gift-icon">💚</span>
+          <h3>Um grande pedacinho do nosso sonho</h3>
+          <div class="gift-price">R$ 200</div>
+          <button class="gift-button" data-value="200">Escolher cota</button>
+        </article>
+
+        <article class="gift-card">
+          <span class="gift-icon">✨</span>
+          <h3>Cota Especial</h3>
+          <div class="gift-price">R$ 300</div>
+          <button class="gift-button" data-value="300">Escolher cota</button>
+        </article>
+
+        <article class="gift-card">
+          <span class="gift-icon">🧊</span>
+          <h3>Cota Geladeira Especial</h3>
+          <div class="gift-price">R$ 500</div>
+          <button class="gift-button" data-value="500">Escolher cota</button>
+        </article>
+
+        <article class="gift-card special">
+          <span class="gift-icon">👑</span>
+          <h3>Cota dos Amigos &amp; Família</h3>
+          <div class="gift-price">R$ 1.000</div>
+          <button class="gift-button" data-value="1000">Escolher cota</button>
+        </article>
+
+        <article class="gift-card free-value">
+          <span class="gift-icon">💝</span>
+          <h3>Presente Livre</h3>
+          <p>Você escolhe o valor que quiser contribuir.</p>
+          <button class="gift-button" data-value="livre">Escolher meu valor</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="pix" class="pix-section section reveal">
+      <span class="section-kicker">PRESENTEIE COM CARINHO</span>
+      <h2>💚 Nossa chave Pix</h2>
+      <p class="center-copy">O presente é enviado diretamente para nós, sem intermediário.</p>
+
+      <div class="pix-card glass">
+        <div class="pix-badge">PIX • MERCADO PAGO</div>
+        <p class="pix-owner">Christian Regis Pereira da Silva Junior</p>
+        <p class="pix-bank">Banco Mercado Pago</p>
+
+        <div class="pix-key-wrap">
+          <span class="pix-label">Chave Pix (CPF)</span>
+          <div class="pix-key" id="pixKey">537.942.438-46</div>
+          <button class="copy-button" id="copyPix">📋 Copiar chave Pix</button>
+        </div>
+
+        <p class="pix-help">
+          Depois de escolher sua cota, é só copiar a chave acima e realizar o Pix.
+          Se quiser, envie o comprovante para nós para facilitar nosso controle. 💚
+        </p>
+      </div>
+
+      <div class="security-note">
+        🔒 <strong>Importante:</strong> a chave Pix é exibida aqui porque este site é
+        destinado aos convidados do nosso chá. Compartilhe o link apenas com quem vocês
+        desejarem convidar.
+      </div>
+    </section>
+
+    <section class="home-list section reveal">
+      <div class="section-heading">
+        <span class="section-kicker">AINDA QUEREMOS ALGUMAS COISINHAS</span>
+        <h2>🎁 Presentes para a casa</h2>
+        <p>
+          Nosso foco principal é a geladeira, mas, se você preferir nos presentear
+          com algo para a casa, aqui estão algumas sugestões.
+        </p>
+      </div>
+
+      <div class="categories">
+        <div class="category glass">
+          <h3>🍳 Cozinha</h3>
+          <ul>
+            <li>Talheres dourados</li>
+            <li>Frigideira para indução</li>
+            <li>Cafeteira</li>
+            <li>Chaleira elétrica</li>
+            <li>Sanduicheira</li>
+            <li>Jogo de jantar</li>
+            <li>Potes herméticos</li>
+            <li>Organizadores de geladeira</li>
+            <li>Organizador de talheres</li>
+            <li>Escorredor de louça</li>
+            <li>Porta-condimentos</li>
+            <li>Micro-ondas</li>
+            <li>Garrafa de água com tampa</li>
+            <li>Descanso de panela</li>
+          </ul>
+        </div>
+
+        <div class="category glass">
+          <h3>🛁 Banheiro</h3>
+          <ul>
+            <li>Toalha de banho</li>
+            <li>Toalha de rosto</li>
+            <li>Cesto de roupa</li>
+            <li>Lixeira de banheiro</li>
+            <li>Tapete de banheiro</li>
+          </ul>
+        </div>
+
+        <div class="category glass">
+          <h3>🛏️ Quarto</h3>
+          <ul>
+            <li>Roupa de cama King</li>
+            <li>Protetor de colchão King</li>
+            <li>Travesseiros</li>
+            <li>Edredom</li>
+          </ul>
+        </div>
+
+        <div class="category glass">
+          <h3>🧹 Limpeza &amp; Casa</h3>
+          <ul>
+            <li>Mop</li>
+            <li>Baldes</li>
+            <li>Varal de chão</li>
+            <li>Ferro de passar</li>
+            <li>Tábua de passar</li>
+            <li>Escada</li>
+            <li>Passadeira</li>
+            <li>Mangueira</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="event section reveal">
+      <span class="section-kicker">ANOTE NA AGENDA</span>
+      <h2>📅 Nosso chá</h2>
+
+      <div class="event-grid">
+        <div class="event-item glass">
+          <span>📆</span>
+          <div><small>DATA</small><strong>10 de outubro de 2026</strong></div>
+        </div>
+        <div class="event-item glass">
+          <span>⏰</span>
+          <div><small>HORÁRIO</small><strong>14h</strong></div>
+        </div>
+        <div class="event-item glass">
+          <span>📍</span>
+          <div><small>LOCAL</small><strong>Estrada Rubens, nº 30</strong></div>
+        </div>
+      </div>
+
+      <div class="party-note">
+        <h3>☕ Vai ter café!</h3>
+        <p>
+          Vamos receber vocês com café, bolos, pães, tortas e sucos.
+          E para quem quiser aproveitar, <strong>teremos piscina!</strong> 🏊‍♂️☀️
+        </p>
+        <p class="pool">Quer pegar uma corzinha? Venha preparado! 😎💚</p>
+      </div>
+    </section>
+
+    <section class="closing section reveal">
+      <div class="closing-photo">
+        <img src="imagens/chris-e-biel.jpeg" alt="Chris e Biel">
+      </div>
+      <div class="closing-content">
+        <span class="section-kicker">ESPERAMOS VOCÊS</span>
+        <h2>Vamos comemorar essa nova fase juntos? 💚</h2>
+        <p>
+          A nossa casa está começando, mas já está cheia de sonhos.
+          Obrigado por fazer parte deles.
+        </p>
+        <a class="button button-gold" href="#pix">Quero presentear</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Chris &amp; Biel • Chá de Casa Nova • 10.10.2026</p>
+    <p class="footer-small">Feito com 💚 para celebrar um novo começo.</p>
+  </footer>
+
+  <div class="modal" id="pixModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-card">
+      <button class="modal-close" id="closeModal" aria-label="Fechar">×</button>
+      <span class="section-kicker">SUA ESCOLHA</span>
+      <h2 id="modalTitle">Cota Geladeira</h2>
+      <div class="modal-value" id="modalValue">R$ 100</div>
+      <p>Copie a chave Pix abaixo para realizar sua contribuição diretamente para nós.</p>
+      <div class="modal-pix">537.942.438-46</div>
+      <button class="button button-green" id="modalCopy">📋 Copiar chave Pix</button>
+      <p class="modal-small">Christian Regis Pereira da Silva Junior • Mercado Pago</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
