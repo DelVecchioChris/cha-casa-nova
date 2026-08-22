@@ -6,8 +6,7 @@ CHÁ DE CASA NOVA — CHRIS & BIEL — VERSÃO LUXO
 
 PIX:
 A página mostra a chave 537.942.438-46 e um QR que codifica essa chave.
-Observação: esse QR é um QR da CHAVE Pix (texto/CPF), não um BR Code bancário
-gerado pelo Mercado Pago. Se o app do banco não reconhecer o QR, use o botão
+Observação: Se o app do banco não reconhecer o QR, use o botão
 "Copiar chave Pix".
 
 META:
